@@ -1,11 +1,5 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package programajson;
 
-import com.sun.xml.internal.ws.client.ContentNegotiation;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
@@ -15,10 +9,6 @@ import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
 
-/**
- *
- * @author Eduardo
- */
 public class JSON_LER {
     public static void main(String[] args) {
         JSONObject objetoJson;
@@ -44,5 +34,5 @@ public class JSON_LER {
         } catch (IOException ex) {
             Logger.getLogger(JSON_LER.class.getName()).log(Level.SEVERE, null, ex);
         }
-}
+    }
 }
